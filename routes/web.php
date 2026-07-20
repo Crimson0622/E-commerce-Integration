@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,5 +18,9 @@ Route::get('/products', [PageController::class, 'products'])->name('products');
 Route::get('/customer-orders', [PageController::class, 'customerOrders'])->name('customer-orders');
 Route::get('/orders', [PageController::class, 'orders'])->name('orders');
 Route::get('/inventory', [PageController::class, 'inventory'])->name('inventory');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 
+Route::get('/category/{id}', [PageController::class, 'shop'])->name('category.show');
+Route::get('/product/{id}', [PageController::class, 'products'])->name('product.show');
+Route::post('/cart/add/{id}', fn () => redirect()->route('cart'))->name('cart.add');

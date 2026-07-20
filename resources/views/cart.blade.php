@@ -190,7 +190,7 @@
     <div class="flex justify-between mt-8">
 
         <a
-            href="{{ route('checkout') }}"
+            href="{{ route('home') }}"
             class="border border-gray-300 px-6 py-3 rounded-lg hover:bg-gray-100 transition">
 
             Return To Shop

@@ -127,7 +127,7 @@
 
     </div>
 
-    <!-- Main Layout -->
+        <!-- Main Layout -->
     <div class="grid grid-cols-12 gap-6">
 
         <!-- Left Sidebar -->
@@ -165,6 +165,7 @@
 
             </div>
 
+           
             <!-- Tree Illustration -->
 
             <div class="mt-10">
@@ -208,31 +209,15 @@
 
                 <div class="flex flex-wrap gap-3 px-6 py-4">
 
-                    <button class="px-4 py-2 rounded bg-[#4A7C2F] text-white">
+    <button>Online Store</button>
 
-                        Online Store
+    <button>Marketplace</button>
 
-                    </button>
+    <button>Retail Store</button>
 
-                    <button class="px-4 py-2 rounded bg-gray-100">
+    <button>Warehouse A</button>
 
-                        Marketplace
-
-                    </button>
-
-                    <button class="px-4 py-2 rounded bg-gray-100">
-
-                        Retail Store
-
-                    </button>
-
-                    <button class="px-4 py-2 rounded bg-gray-100">
-
-                        Warehouse A
-
-                    </button>
-
-                </div>
+</div>  
 
                                 <!-- Inventory Table -->
                 <div class="overflow-x-auto">

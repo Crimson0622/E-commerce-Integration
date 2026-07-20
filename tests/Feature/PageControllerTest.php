@@ -18,4 +18,6 @@ test('core page routes render successfully', function (string $path): void {
     '/customer-orders',
     '/orders',
     '/inventory',
+    '/category/1',
+    '/product/1',
 ]);

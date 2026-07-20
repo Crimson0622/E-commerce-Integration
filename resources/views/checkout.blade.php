@@ -361,7 +361,7 @@
             <div class="flex justify-center gap-6">
 
                 <a
-                    href="{{ url('/orders') }}"
+                    href="{{ url('/customer-orders') }}"
                     class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded">
 
                     Track My Order

@@ -9,7 +9,10 @@
         <form class="mt-8 space-y-4">
             <input class="w-full rounded-lg border px-4 py-3" type="email" placeholder="Email address">
             <input class="w-full rounded-lg border px-4 py-3" type="password" placeholder="Password">
-            <button class="w-full rounded-lg bg-[#4A7C2F] px-4 py-3 font-semibold text-white">Log In</button>
+             <a href="{{ route('signup') }}" 
+   class="block w-full text-center rounded-lg bg-[#4A7C2F] px-4 py-3 font-semibold text-white">
+    Sign Up
+</a>
         </form>
     </div>
 </div>
