@@ -4,6 +4,28 @@ namespace App\Http\Controllers;
 
 class PageController extends Controller
 {
+    //ADMIN
+    public function adminsDashboard()
+    {
+        return view('admins.dashboard');
+    }
+
+    public function adminsOrders()
+    {
+        return view('admins.orders');
+    }
+
+    public function adminsInventory()
+    {
+        return view('admins.inventory');
+    }
+   
+    public function adminsRealtime()
+    {
+        return view('admins.realtime');
+    }
+
+    //CUSTOMER
     public function home()
     {
         return view('home');
@@ -64,13 +86,4 @@ class PageController extends Controller
         return view('customer-orders');
     }
 
-    public function orders()
-    {
-        return view('admins.orders');
-    }
-
-    public function inventory()
-    {
-        return view('inventory');
-    }
 }

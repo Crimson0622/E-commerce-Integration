@@ -11,10 +11,17 @@
             Home
         </a>
 
+
         <span class="mx-2">/</span>
 
-        <span class="font-semibold text-gray-800">
-            Inventory
+        <span class="font-semibold text-gray-700">
+            Admin Dashboard
+        </span>
+
+        <span class="mx-2">/</span>
+
+        <span class="font-semibold text-[#4A7C2F]">
+                Inventory
         </span>
 
     </div>

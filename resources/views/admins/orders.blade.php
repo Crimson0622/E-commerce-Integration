@@ -7,9 +7,17 @@
     <!-- Breadcrumb -->
     <div class="text-sm text-gray-500 mb-8">
         <a href="{{ url('/') }}" class="hover:text-[#4A7C2F]">Home</a>
+
         <span class="mx-2">/</span>
+
         <span class="font-semibold text-gray-700">
             Admin Dashboard
+        </span>
+
+        <span class="mx-2">/</span>
+
+        <span class="font-semibold text-[#4A7C2F]">
+                Orders
         </span>
     </div>
 
